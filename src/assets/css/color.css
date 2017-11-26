@@ -1,0 +1,8 @@
+
+/*@import "../../node_modules/open-color/open-color.css";*/
+@import url("../../../node_modules/open-color/open-color.css");
+:root {
+	--main-text-color: var(--oc-gray-2);
+	--muted-text-color: var(--oc-gray-6);
+	--main-bg-color: var(--oc-gray-9);
+}

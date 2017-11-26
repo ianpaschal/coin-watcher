@@ -1,0 +1,50 @@
+{
+	"name": "buildable-electron-boilerplate",
+	"version": "1.0.0",
+	"title": "Buildable Electron Boilerplate",
+	"description": "Yet another boilerplate: The starting point for my Electron + Vue + Webpack projects.",
+	"license": "MIT",
+	"author": "Ian Paschal",
+	"homepage": "https://github.com/ianpaschal/city-builder#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ianpaschal/city-builder.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ianpaschal/city-builder/issues"
+	},
+	"dependencies": {
+		"electron-fetch": "^1.1.0",
+		"open-color": "^1.5.1",
+		"vue": "^2.0.1",
+		"vuex": "^3.0.0"
+	},
+	"devDependencies": {
+		"css-loader": "^0.25.0",
+		"electron": "^1.4.3",
+		"electron-builder": "^19.43.0",
+		"electron-reload": "^1.0.2",
+		"file-loader": "^0.9.0",
+		"vue-loader": "^9.5.1",
+		"webpack": "^2.1.0-beta.22"
+	},
+	"main": "src/main.js",
+	"scripts": {
+		"start": "electron .",
+		"pack": "webpack -d",
+		"dist": "electron-builder"
+	},
+	"build": {
+		"appId": "org.ianpaschal",
+		"productName": "My App",
+		"artifactName": "${name}-${version}.${ext}",
+		"copyright": "Copyright © 2017",
+		"directories": {
+			"buildResources": "src/assets/build",
+			"output": "dist"
+		},
+		"mac": {
+			"category": "public.app-category.games"
+		}
+	}
+}

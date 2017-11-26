@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Bitcoin",
+		"code": "BTC"
+	},
+	{
+		"name": "Bitcoin Cash",
+		"code": "BCH"
+	},
+	{
+		"name": "Dash",
+		"code": "DASH"
+	},
+	{
+		"name": "Ethereum",
+		"code": "ETH"
+	},
+	{
+		"name": "Ethereum Classic",
+		"code": "ETC"
+	},
+	{
+		"name": "Litecoin",
+		"code": "LTC"
+	},
+	{
+		"name": "Monero",
+		"code": "XMR"
+	},
+	{
+		"name": "Ripple",
+		"code": "XRP"
+	},
+	{
+		"name": "Tether",
+		"code": "USDT"
+	},
+	{
+		"name": "ZCash",
+		"code": "ZEC"
+	}
+];
