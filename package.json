@@ -14,7 +14,7 @@
 		"url": "https://github.com/ianpaschal/city-builder/issues"
 	},
 	"dependencies": {
-		"electron-fetch": "^1.1.0",
+		"electron-fetch": "^1.7.1",
 		"open-color": "^1.5.1",
 		"vue": "^2.0.1",
 		"vuex": "^3.0.0"
